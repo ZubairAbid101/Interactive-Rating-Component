@@ -1,0 +1,124 @@
+/* Complete Container Styling */
+#container {
+  max-width: 500px;
+  background: linear-gradient(225deg, hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  border-radius: 10px;
+  padding: 40px;
+}
+
+/* Rating Card Styling */
+img {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* Rating Container Styling */
+#rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.rating-number {
+  width: 45px;
+  height: 45px;
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(213, 19%, 18%);
+  border: transparent;
+  border-radius: 50%;
+  display: block;
+}
+
+.rating-number:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+.rating-number:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* Submit Button Styling */
+#submit-button {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  margin: 30px auto 0px auto;
+  border-radius: 20px;
+  display: block;
+}
+
+#submit-button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/* Thank You Card Styling */
+#thank-you-card {
+  display: none;
+}
+
+#thank-you-img {
+  display: block;
+  margin: 0px auto;
+}
+
+#assigned-rating {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px auto 0px auto;
+  padding: 8px;
+}
+
+#thank-you-heading {
+  text-align: center;
+}
+
+#thank-you-paragraph {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  #container {
+    width: 90vw;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */

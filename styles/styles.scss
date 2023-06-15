@@ -1,0 +1,21 @@
+@forward "complete-container";
+@forward "rating-card";
+@forward "thank-you-card";
+@forward "mobile-layout";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
